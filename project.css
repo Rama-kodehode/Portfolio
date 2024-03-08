@@ -1,0 +1,150 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Noto Sans SC", sans-serif;
+}
+
+html {
+  background-color: #f5f9f6;
+  scroll-behavior: smooth;
+}
+
+.li-container {
+  padding: 20px 45px 20px 45px;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: fixed;
+  background-color: #f5f9f6;
+  width: 100%;
+  z-index: 999;
+}
+
+.hero-cont {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 25px;
+  padding: 75px 45px 45px 45px;
+}
+
+.product-desc,
+.quote,
+.link {
+  font-size: 30px;
+  font-weight: 700;
+}
+
+h1 {
+  font-size: 200px;
+}
+
+img {
+  width: 50vw;
+  /* height: 80vh; */
+  overflow: hidden;
+}
+
+a {
+  color: black;
+  /* text-decoration: none; */
+}
+
+span {
+  font-size: 200px;
+  font-weight: 900;
+  color: #fec807;
+  /* border: solid black;  */
+  /* background-color: rgb(145, 24, 24); */
+}
+
+.svg-cont {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.img-cont {
+  padding: 45px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 80px;
+  /* flex-direction: column; */
+  /* align-items: center; */
+}
+
+iframe {
+  width: 100%;
+  height: 100vh;
+}
+
+.navigate-projects {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 45px;
+}
+
+.projects-visual {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 25px;
+  padding: 45px;
+}
+
+.projects-visual > li {
+  font-size: 100px;
+}
+
+/* .link {
+  font-size: 50px;
+} */
+
+@media screen and (max-width: 768px) {
+  .li-container {
+    gap: 2px;
+  }
+
+  .hero-cont {
+    padding: 70px 20px 20px 20px;
+  }
+
+  .product-desc,
+  .quote {
+    font-size: 20px;
+  }
+
+  h1 {
+    font-size: 70px;
+  }
+
+  img {
+    height: 150px;
+  }
+
+  .img-cont {
+    padding: 20px;
+  }
+
+  .navigate-projects {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    width: 100vw;
+  }
+
+  /* .upnext-projects {
+    width: 100vw;
+  } */
+  .projects-visual {
+    padding: 20px;
+  }
+}
