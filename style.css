@@ -18,14 +18,18 @@ a {
   /* text-decoration: none; */
 }
 
-.preloader {
-  width: 100vw;
-  height: 100vh;
-  animation: fadeOut 2.5s forwards;
+.top-container,
+.footer-container,
+.scroll,
+#y-cont,
+#x-cont {
+  /* width: 100vw;
+  height: 100vh; */
+  animation: fadein 4s forwards;
 }
 
 /* animation */
-@keyframes fadeOut {
+@keyframes fadein {
   from {
     opacity: 0;
   }
@@ -51,7 +55,7 @@ a {
 }
 
 .big-name {
-  padding-top: 5px;
+  padding: 5px;
   display: flex;
   justify-content: flex-start;
   align-items: center;
