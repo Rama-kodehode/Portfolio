@@ -1,5 +1,7 @@
 const x = document.getElementById("x-coordinate");
 const y = document.getElementById("y-coordinate");
+x.style.border = "solid";
+y.style.border = "solid";
 let roundSquares;
 
 window.addEventListener("mousemove", (e) => {
