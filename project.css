@@ -26,8 +26,8 @@ html {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 25px;
-  padding: 75px 45px 45px 45px;
+  gap: 20px;
+  padding: 60px 45px 45px 45px;
 }
 
 .product-desc,
@@ -60,15 +60,19 @@ span {
   /* background-color: rgb(145, 24, 24); */
 }
 
+svg {
+  width: 80px;
+  height: 40px;
+}
+
 .svg-cont {
   display: flex;
-  flex-wrap: wrap;
   justify-content: center;
   align-items: center;
 }
 
 .img-cont {
-  padding: 45px;
+  padding: 0px 45px 45px 45px;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
