@@ -192,6 +192,29 @@ a {
   padding: 12px 0px;
 }
 
+.user-tools-cont {
+  border: solid black;
+  display: flex;
+  flex-direction: column;
+}
+
+.user-tools,
+.user-date {
+  gap: 5px;
+  padding: 10px;
+  border-bottom: solid black;
+  border-left: solid black;
+}
+
+.user-tools > p {
+  font-size: larger;
+  letter-spacing: 5px;
+}
+
+.user-tools > svg {
+  height: 30px;
+}
+
 #section2 {
   display: flex;
   align-items: center;
